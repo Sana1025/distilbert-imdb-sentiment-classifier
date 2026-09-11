@@ -14,7 +14,7 @@ script, and a private Gradio interface.
 | 7 | 90.94% | 91.16% | 91.19% |
 | 42 | 91.44% | 91.14% | 91.15% |
 | 123 | 91.38% | 91.18% | 91.29% |
-| **Mean ± sample SD** | — | **91.16% ± 0.02%** | **91.21% ± 0.07%** |
+| **Mean ± sample SD** | - | **91.16% ± 0.02%** | **91.21% ± 0.07%** |
 
 The low variation across seeds indicates that the result is stable under these
 settings. Raw aggregate values are available in
