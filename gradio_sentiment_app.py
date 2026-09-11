@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Private Gradio demo for the fine-tuned DistilBERT IMDb classifier."""
-
 from __future__ import annotations
 
 import argparse
