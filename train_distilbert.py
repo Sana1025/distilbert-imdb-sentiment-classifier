@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Fine-tune DistilBERT on IMDb with a proper train/validation/test workflow."""
-
 import argparse
 import json
 import random
