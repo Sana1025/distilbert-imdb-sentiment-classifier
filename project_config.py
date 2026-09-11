@@ -1,5 +1,3 @@
-"""Portable paths and cache settings shared by the project scripts."""
-
 from __future__ import annotations
 
 import os
