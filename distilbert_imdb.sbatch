@@ -1,14 +1,3 @@
-#!/usr/bin/env bash
-#SBATCH --job-name=distilbert-imdb
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=32G
-#SBATCH --time=01:00:00
-#SBATCH --output=logs/slurm_%x_%j.out
-#SBATCH --error=logs/slurm_%x_%j.err
-
 set -Eeuo pipefail
 
 readonly SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
