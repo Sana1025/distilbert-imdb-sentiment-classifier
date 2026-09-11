@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Predict IMDb sentiment with a trained DistilBERT checkpoint."""
-
 import argparse
 import json
 from pathlib import Path
