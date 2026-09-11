@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+accelerate==1.15.0
+datasets==5.0.1
+evaluate==0.4.6
+gradio==6.27.0
+matplotlib==3.10.9
+numpy==2.2.6
+scikit-learn==1.7.2
+torch==2.5.1+cu121
+tqdm==4.70.0
+transformers==5.17.0

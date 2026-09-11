@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Datasets, caches, trained weights, and experiment output
+.cache/
+data/
+runs/
+checkpoints/
+best_model/
+error_analysis/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.npz
+
+# Slurm and runtime logs
+logs/*
+!logs/.gitkeep
+slurm-*.out
+slurm-*.err
+*.log
+
+# Archives and operating-system files
+*.tar
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+seed,best_validation_accuracy_percent,test_accuracy_percent,test_f1_percent,negative_to_positive_errors,positive_to_negative_errors
+7,90.94,91.16,91.19,1158,1053
+42,91.44,91.14,91.15,1126,1090
+123,91.38,91.18,91.29,1268,938
